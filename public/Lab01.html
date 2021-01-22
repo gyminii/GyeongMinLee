@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab01</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- 합쳐지고 최소화된 최신 CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+
+    <!-- 부가적인 테마 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- 합쳐지고 최소화된 최신 자바스크립트 -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <div class="page-header centering"> <h1> Lab01 <br> <small> Hard-Coded Quiz </small></h1> </div>
+
+    <div class="question_wrapper">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Question01</h3>
+            </div>
+
+            <br><h4 class="card-title"> What is the output of the following code snippet? </h4>
+            <br><br>
+            <div class="centering">
+                <div style="width: 20%; text-align: left; display: inline-block;">
+                    <div> let temp = 6; </div>
+                    <div> for (let i = 2; i < 9; i++) {</div>
+                    <div><span class="tab_space"> temp *= i;  </span></div>
+                    <div> } <br> console.log(temp);</div>
+                </div>
+            </div>
+            <div class="empty_box"></div>
+    
+            <ul class="mylist">
+                <li>  
+                    <input type="checkbox" id="q1a" name="q1a">
+                    <label for="q1a"> 13</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1b" name="q1b">
+                    <label for="q1a"> 56</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1c" name="q1c">
+                    <label for="q1a"> 93</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1d" name="q1d">
+                    <label for="q1a"> 72</label>
+                </li>
+            </ul>
+            <div class="empty_box"></div>
+            <div class="card-footer text-muted"> Answer: 72 </div>
+        </div>
+    </div>
+    
+    <br>
+
+    <div class="question_wrapper">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Question02</h3>
+            </div>
+
+            <br><h4 class="card-title"> What is the output of the following code snippet? </h4>
+            <br><br>
+            <div class="centering">
+                <div style="width: 20%; text-align: left; display: inline-block;">
+                    <div> let sub = (a, b) ==> {</div>
+                        <div> <span class="tab_space">let result = a - b;</span> </div>
+                        <div>  }<br> console.log(sub(10, 2));</div>
+                </div>
+            </div>
+            <div class="empty_box"></div>
+            <ul class="mylist">
+                <li>  
+                    <input type="checkbox" id="q1a" name="q1a">
+                    <label for="q1a"> -2</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1b" name="q1b">
+                    <label for="q1a"> 5</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1c" name="q1c">
+                    <label for="q1a"> 8</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1d" name="q1d">
+                    <label for="q1a"> 12</label>
+                </li>
+            </ul>
+            <div class="empty_box"></div>
+            <div class="card-footer text-muted"> Answer: 8 </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="question_wrapper">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Question03</h3>
+            </div>
+
+            <br><h4 class="card-title"> What is the output of the following code snippet? </h4>
+            <br><br>
+            <div class="centering">
+                <div class="qs">
+                    <div> let mul = (a, b) ==> {</div>
+                        <div> <span class="tab_space">let result = a * b;</span> </div>
+                        <div>  }<br> console.log(mul(5, 6));</div>
+                </div>
+            </div>
+            <div class="empty_box"></div>
+            <ul class="mylist">
+                <li>  
+                    <input type="checkbox" id="q1a" name="q1a">
+                    <label for="q1a"> 11</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1b" name="q1b">
+                    <label for="q1a"> -1</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1c" name="q1c">
+                    <label for="q1a"> 30</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1d" name="q1d">
+                    <label for="q1a"> 19</label>
+                </li>
+            </ul>
+            <div class="empty_box"></div>
+            <div class="card-footer text-muted"> Answer: 30 </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="question_wrapper">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Question04</h3>
+            </div>
+
+            <br><h4 class="card-title"> What is the output of the following code snippet? </h4>
+            <br><br>
+            <div class="centering">
+                <div id="q4">
+                    <div> let firstName = null; </div>
+                    <div> let lastName = null; </div>
+                    <div> let nickName = "SuperCoder" </div>
+                    <div> alert(firstname || lastName || nickName || "Anonymous"</div>
+                </div>
+            </div>
+            <div class="empty_box"></div>
+            <ul class="mylist">
+                <li>  
+                    <input type="checkbox" id="q1a" name="q1a">
+                    <label for="q1a"> "Anonymous"</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1b" name="q1b">
+                    <label for="q1a"> undefined</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1c" name="q1c">
+                    <label for="q1a"> null</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1d" name="q1d">
+                    <label for="q1a"> "SuperCoder"</label>
+                </li>
+            </ul>
+            <div class="empty_box"></div>
+            <div class="card-footer text-muted"> Answer: "SuperCoder" </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="question_wrapper">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Question05</h3>
+            </div>
+
+            <br><h4 class="card-title"> What is the output of the following code snippet? </h4>
+            <br><br>
+            <div class="centering">
+                <div class="qs">
+                    <div> let add = (a, b) ==> {</div>
+                    <div> <span class="tab_space">let result = a + b;</span> </div>
+                    <div>  }<br> console.log(add(5, 6));</div>
+                </div>
+            </div>
+            <div class="empty_box"></div>
+            <ul class="mylist">
+                <li>  
+                    <input type="checkbox" id="q1a" name="q1a">
+                    <label for="q1a"> 3</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1b" name="q1b">
+                    <label for="q1a"> 9</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1c" name="q1c">
+                    <label for="q1a"> 11</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1d" name="q1d">
+                    <label for="q1a"> 0</label>
+                </li>
+            </ul>
+            <div class="empty_box"></div>
+            <div class="card-footer text-muted"> Answer: 11 </div>
+        </div>
+    </div>
+
+    <br>
+
+    <div class="question_wrapper">
+        <div class="card text-center">
+            <div class="card-header">
+                <h3>Question06</h3>
+            </div>
+
+            <br><h4 class="card-title"> What is the output of the following code snippet? </h4>
+            <br><br>
+            <div class="centering">
+                <div id="q6">
+                    <div> let height = null; </div>
+                    <div> let width = null; </div>
+                    <div> let area = (height ?? 10) * (width ?? 5); </div>
+                    <div> console.log(area); </div>
+                </div>
+                <br><br><br>
+            </div>
+            <div class="empty_box"></div>
+            <ul class="mylist">
+                <li>  
+                    <input type="checkbox" id="q1a" name="q1a">
+                    <label for="q1a"> 63</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1b" name="q1b">
+                    <label for="q1a"> 18</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1c" name="q1c">
+                    <label for="q1a"> 0</label>
+                </li>
+                <li> 
+                    <input type="checkbox" id="q1d" name="q1d">
+                    <label for="q1a"> 50</label>
+                </li>
+            </ul>
+            <div class="empty_box"></div>
+            <div class="card-footer text-muted"> Answer: 50 </div>
+        </div>
+    </div>
+
+    <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="/__/firebase/8.2.2/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="/__/firebase/8.2.2/firebase-analytics.js"></script>
+
+    <!-- Initialize Firebase -->
+    <script src="/__/firebase/init.js"></script>
+
+</body>
+</html>

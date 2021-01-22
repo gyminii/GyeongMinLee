@@ -1,0 +1,100 @@
+/* div { text-align: center; } */
+.centering {
+  text-align: center;
+}
+.index_image {
+  width: 30%;
+}
+ul.mylist li:before,
+ol.mylist li:before {
+  display: inline-block;
+  vertical-align: middle;
+  padding: 0px 5px 6px 0px;
+}
+ul.mylist li,
+ol.mylist li {
+  padding: 5px 0px 5px 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #efefef;
+  font-size: 12px;
+}
+ul.mylist li:last-child,
+ol.mylist li:last-child {
+  border-bottom: 0px;
+}
+ul.mylist,
+ol.mylist {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+
+  max-width: 900px;
+  width: 100%;
+}
+
+ul.mylist li,
+ol.mylist li {
+  display: inline-block;
+  padding: 10px;
+  margin-bottom: 5px;
+  border: 1px solid #efefef;
+  font-size: 12px;
+  cursor: pointer;
+}
+
+label {
+  font-size: 1.5rem;
+  margin: 1rem;
+}
+
+input {
+  margin: 0.4rem;
+}
+
+.empty_box {
+  height: 5rem;
+}
+
+.question_wrapper {
+  width: 40%;
+  margin: 0 auto;
+}
+.qs {
+  width: 20%;
+  text-align: left;
+  display: inline-block;
+}
+#q4 {
+  width: 35%;
+  text-align: left;
+  display: inline-block;
+}
+#q6 {
+  width: 25%;
+  text-align: left;
+  display: inline-block;
+}
+.tab_space {
+  padding-left: 2em;
+}
+.hyperlink_wrapper {
+  width: 30%;
+  margin: 0 auto;
+}
+.hyperlink_contents {
+  display: inline-block;
+  text-align: center;
+}
+.textarea_wrapper {
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+}
+.button_wrapper {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+.button_contents {
+  display: inline-block;
+}
